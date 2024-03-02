@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1> <strong> FORMULARIO </strong></H1>
+
+    
+    <form name="Fregistro" action="#" method="post"> 
+        <!-- Aquí van los controles-->
+        <label for="nombre" >Ingrese su nombre</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Ingresa aquí tu nombre"/>
+
+        <label for="password"> Introduzca su contraseña </label>
+        <input type="password" id="password" name="password" required placeholder="Ingresa aquí tu contraseña"/>
+
+        <br>
+        <br>
+        <br>
+
+        <label for="civil"> Seleccione estado civil </label>
+        <input type="radio" id="ecivil" name="ecivil"> Soltero
+        <input type="radio" id="ecivil" name="ecivil"> Casado
+        <input type="radio" id="ecivil" name="ecivil" checked> En una relación
+        <input type="radio" id="ecivil" name="ecivil"> Viudo
+
+        <br>
+        <br>
+        <br>
+
+
+        <label> que te gusta hacer en tu tiempo libre</label>
+        <input type="checkbox" id="series" name="series"> 
+        <label for="series"> ver series </label>
+        <input type="checkbox" id="jugar" name="jugar"> 
+        <label for="series"> jugar videojuegos </label>
+        <input type="checkbox" id="deportes" name="deportes"> 
+        <label for="series"> Hacer deportes</label>
+        
+        <br>
+        <br>
+        <br>
+
+        <label for="ciudad"> Ciudad </label>
+        <Select id="ciudad" name="ciudad">
+            <option value="0" name="ciudad"> Escoge una ciudad </option>
+            <option value="1" name="ciudad"> Bogotá D.C</option>
+            <option value="2" name="ciudad"> Cali </option>
+            <option value="3" name="ciudad"> Medellín </option>
+
+        </Select>
+        
+        <br>
+        <br>
+        <br>
+
+        <label for="foto">Carga tu foto</label>
+        <input type="file" id="foto" name="foto">
+
+        <br>
+        <br>
+        <br>
+
+
+        <label for="observaciones"> Observaciones </label>
+        <textarea name="observaciones" id="observaciones" cols="30" rows="3"></textarea>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+
+
+
+    </form>
+
+
+
+</body>
+</html>
